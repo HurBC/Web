@@ -1,0 +1,191 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: aaa;
+}
+
+@font-face {
+    font-family: eee;
+    src: url(fonts/comic.ttf);
+}
+
+@font-face {
+    font-family: aaa;
+    src: url(fonts/DearSans-Book.ttf);
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section
+{
+    margin-top: 2vh;
+    display: flexbox;
+}
+
+p
+{
+    width: auto;
+}
+
+#container-N
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #c1c1c1;
+    padding: 10px;
+}
+
+#container
+{
+    width: 100%;
+    margin-left: 9.5%;
+    display: flex;
+}
+
+.box-F
+{
+    position: absolute;
+    left: 38.5%;
+    width: 40vh;
+    background-color: #f0eeee;
+    border: 2px solid #000;
+}
+
+.ok
+{
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+.logo
+{
+    margin-left: 3vh;
+}
+
+.search
+{
+    margin-left: 20vh;
+    display: flex;
+}
+
+.search input
+{
+    width: 910%;
+    height: 3vh;
+}
+
+.btn-one
+{
+    margin-left: 10vh;
+    background-color: #2b78e4;
+    color: #fff;
+    border-color: #000;
+    width: 7vh;
+    height: 4.5vh;
+    box-shadow: 2px 3px #000;
+}
+
+.btn:hover
+{
+    background-color: #efe819;
+    color: #000;
+}
+
+.box
+{
+    padding: 5px 20px 20px 20px;
+    display: flex;
+    background-color: #f0eeee;
+    width: 35%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.box input
+{
+    margin-top: 20px;
+    background-color: #ffd966;
+    color: #000;
+    border-color: #000;
+    width: 10vh;
+    height: 5vh;
+    box-shadow: 2px 3px #000;
+}
+
+.a button
+{
+    margin-top: 20px;
+    background-color: #ffd966;
+    color: #000;
+    border-color: #000;
+    width: 10vh;
+    height: 5vh;
+    box-shadow: 2px 3px #000;
+}
+
+.alert:hover
+{
+    background-color: #ff66c4;
+}
+
+.a
+{
+    width: 20%;
+}
+
+.a label p
+{
+    margin-left: 2vh;
+}
+
+.a h1
+{
+    font-size: 35px;
+}
+
+.b
+{
+    padding-top: 7vh;
+    padding-left: 4vh;
+    width: 60%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6vh;
+}
+
+.b label
+{
+    color: #085394;
+    text-decoration: underline;
+}
+
+.box-A
+{
+    margin-left: 5vh;
+    padding: 20px;
+    width: 25%;
+    height: auto;
+    background-color: #f0eeee;
+    border: 2px solid black;
+}
+
+.btn-2
+{
+    width: 70%;
+    height: 5vh;
+    background-color: rgb(118, 203, 118);
+    box-shadow: 2px 3px #000;
+}
+
+.btn-2:hover
+{
+    background-color: rgb(118, 153, 203);
+}

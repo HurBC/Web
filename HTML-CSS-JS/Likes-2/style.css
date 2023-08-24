@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sus;
+}
+
+@font-face {
+    font-family: sus;
+    src: url(fonts/comic.ttf);
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button
+{
+    width: 30%;
+    padding: 0.5vh;
+    font-family: sus;
+    font-size: 2vh;
+    background-color: #ffd966;
+    border: 3px #000 solid;
+    border-radius: 2px;
+    box-shadow: 5px 5px black;
+}
+
+label
+{
+    color: rgb(35, 127, 248);
+    text-decoration: underline;
+}
+
+#S-1
+{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#S-2
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container-H
+{
+    width: 60%;
+    padding: 1vh;
+    background-color: #000;
+    color: #fff;
+}
+
+#container-S
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.box
+{
+    width: 25%;
+    padding: 30px;
+    height: 35%;
+    border: 3px #000 solid;
+    display: block;
+    align-items: center;
+    grid-template-rows: 50%;
+}
+
+.profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link
+{
+    margin: 3vh 0 3vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name
+{
+    margin: 3vh 0 3vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2
+{
+    width: 65%;
+}
+
+.xob, .xob2, .xob3
+{
+    height: auto;
+    margin-bottom: 2vh;
+    padding: 2vh;
+    background-color: rgb(243, 243, 243);
+    border: 3px #000 solid;
+}
+
+.oxb
+{
+    width: 100%;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bxo
+{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
